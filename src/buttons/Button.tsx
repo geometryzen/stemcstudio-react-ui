@@ -1,5 +1,20 @@
-import React, { FC } from 'react';
+import React, { ComponentPropsWithoutRef, forwardRef } from 'react';
+/*
+interface ButtonProps {
+    style?: CSSProperties,
+    children?: ReactNode
+}
+*/
 
-export const Button: FC = () => {
-    return <button>Hello, World!</button>;
-};
+export const Button = forwardRef<
+    HTMLButtonElement,
+    ComponentPropsWithoutRef<'button'>
+>(({ children, ...props }, ref) => {
+    return (
+        <button ref={ref} type="button" {...props}>
+            {children}
+        </button>
+    );
+});
+
+Button.displayName = 'Button';
