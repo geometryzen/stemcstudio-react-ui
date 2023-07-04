@@ -25,6 +25,7 @@
     },
     "include": [
         "./src/**/*.ts",
-        "rollup.config.mts"
+        "rollup.config.mts",
+        "src/stories/Button.stories.tsx"
     ]
 }
