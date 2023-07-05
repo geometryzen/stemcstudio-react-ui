@@ -23,7 +23,6 @@ import pkg from './package.json' assert { type: 'json' };
 //        );
 //}
 
-
 /**
  * Comment with library information to be appended in the generated bundles.
  */
@@ -87,12 +86,12 @@ const options: RollupOptions[] = [
             copy({
                 targets: [
                     {
-                        src: "src/index.css",
-                        dest: "dist",
-                        rename: "index.css"
-                    }
-                ]
-            })
+                        src: 'src/index.css',
+                        dest: 'dist',
+                        rename: 'index.css',
+                    },
+                ],
+            }),
         ],
     },
     // Bundle the generated ESM type definitions.
