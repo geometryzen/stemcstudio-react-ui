@@ -8,10 +8,9 @@
     color: var(--color-light);
     cursor: pointer;
     font: inherit;
-    padding: 1rem;
+    padding: 0.3rem 1rem;
     position: relative;
     text-decoration: none;
-    text-transform: uppercase;
     letter-spacing: 0.1ch;
     transition:
         background-color 0.2s,
