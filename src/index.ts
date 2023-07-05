@@ -1,1 +1,1 @@
-export { Button, Toggle } from './buttons';
+export { Button, Toggle, ToggleProps } from './buttons';

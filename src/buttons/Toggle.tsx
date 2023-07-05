@@ -2,7 +2,7 @@ import * as React from 'react';
 import { CSSProperties, FunctionComponent, ReactNode } from 'react';
 import styles from './Toggle.module.css';
 
-interface ToggleProps {
+export interface ToggleProps {
     label: string;
     style?: CSSProperties;
     children?: ReactNode;
