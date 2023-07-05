@@ -75,7 +75,7 @@ const options: RollupOptions[] = [
             commonjs(),
             peerDepsExternal() as unknown as Plugin,
             postcss({
-                extract: true,
+                // extract: true,
                 plugins: [autoprefixer()],
                 // writeDefinitions causes the build to hang. What is going on?
                 // writeDefinitions: true,
