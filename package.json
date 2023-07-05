@@ -1,6 +1,6 @@
 {
     "name": "@geometryzen/stemcstudio-react-ui",
-    "version": "0.0.12",
+    "version": "0.0.13",
     "description": "React components for STEMCstudio applications",
     "exports": {
         ".": {
